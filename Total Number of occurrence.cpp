@@ -60,7 +60,7 @@ int count(int arr[], int n, int k)
 	int last = lastOccur(arr,n,k);
 	if( first== -1 && last == -1){
 return 0;
-return last - first + 1;
+
 	}
     return last - first + 1;
 }
